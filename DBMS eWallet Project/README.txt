@@ -14,3 +14,4 @@ Please do not reproduce this project without permission.
 2. Paste Wallet folder in xampp/htdocs
 3. Browse localhost from browser (use proper ports)
 4. To edit port number and database info, check the php files.
+5. For the database file i.e. .SQL file containing all the tables, contact me.
