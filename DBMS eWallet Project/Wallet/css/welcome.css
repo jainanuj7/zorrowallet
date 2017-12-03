@@ -1,0 +1,110 @@
+body
+{
+	background-color:#26EFB4;
+	background: linear-gradient(#26EFB4, #07466F);
+	text-align: center;
+	margin :0 auto;
+	letter-spacing: 1px;
+	font-weight:bold;
+	font-family: Century Gothic, sans-serif;
+	text-align: center;
+}
+
+#bal
+{
+	text-align: center;
+	background:transparent;
+	letter-spacing: 1px;
+}
+#bal input[type=text], #bal input[type=number]
+{
+	width:400;
+	height:80px;
+	border-radius:7px;
+	border:transparent;
+  letter-spacing: 1px;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 3px solid #555;
+  text-align: center;
+	margin-top: 5px;
+}
+
+#bal input[type=submit]
+{
+  width:250px;
+	height:40px;
+  border:transparent;
+	border-radius: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+#container
+{
+  text-align: center;
+}
+#add_money, #send_money, #passbook
+{
+
+  height: inherit;
+  vertical-align: middle;
+  display: inline-block;
+  text-align: center;
+	letter-spacing: 1px;
+  margin-left: 5%;
+  margin-right: 5%;
+
+}
+
+
+
+#add_money input[type=text], #send_money input[type=text], #add_money input[type=number], #send_money input[type=number]
+{
+  text-align: center;
+  width:200px;
+	height:45px;
+	border-radius:7px;
+	border:transparent;
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#add_money img, #send_money img, #passbook img
+{
+  border: 3px solid #000066;
+}
+#add_money input[type=text]:focus, #send_money input[type=text]:focus
+{
+    border: 2px solid #555;
+}
+
+#add_money input[type=submit], #send_money input[type=submit], #logout input[type=submit], #passbook input[type=submit]
+{
+  width: 200px;
+	height:40px;
+  border:transparent;
+	border-radius: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+#logout
+{
+  text-align: center;
+	margin :0 auto;
+	background:transparent;
+	letter-spacing: 1px;
+}
+
+
+{
+  width:inherit;
+	height:40px;
+  border:transparent;
+	border-radius: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
